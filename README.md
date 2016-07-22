@@ -19,16 +19,12 @@ Wenn ich dies entsprechend wie folgt umsetze:
  nun zeigt 'git remote -v':
  
  hub	https://github.com/easymf74/Test.git (fetch)
- 
  hub	https://github.com/easymf74/Test.git (push)
  
  git fetch hub
- 
  git merge hub/master
  
  führt zu folgender Fehlermeldung:
- 
- 
  fatal: Verweigere den Merge von nicht zusammenhängenden Historien.
  
 Somit ist es aus mir bisher nicht verständlichen Gründen nicht möglich
